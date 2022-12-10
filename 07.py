@@ -90,7 +90,7 @@ if __name__ == "__main__":
         print(depth + "- " + node.name + ", size: " + str(node.size) + dir)
         for n in node.children:
             draw_node(n, depth=depth + "    ")
-    # draw_node(root, "")
+    draw_node(root, "")
 
     # part two
     used_space = root.size
